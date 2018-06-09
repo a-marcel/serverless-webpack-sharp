@@ -49,9 +49,9 @@ custom:
   webpack:
     forceInclude:
       - sharp
-    packageOptions:
+    packagerOptions:
       scripts:
-        npm rebuild sharp --target=6.10.0 --target_arch=x64 --target_platform=linux
+        - npm rebuild sharp --target=6.10.0 --target_arch=x64 --target_platform=linux
 
   stageVariables:
     BUCKET: ${self:custom.bucket_name}
