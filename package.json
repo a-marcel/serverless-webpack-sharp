@@ -1,0 +1,24 @@
+{
+  "name": "s3-image-resizer",
+  "version": "1.0.0",
+  "scripts": {
+    "serverless": "./node_modules/serverless/bin/serverless",
+    "webpack": "node_modules/webpack/bin/webpack.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.95.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "decompress": "^4.2.0",
+    "serverless": "^1.27.3",
+    "serverless-plugin-bind-deployment-id": "^1.0.1",
+    "serverless-plugin-cloudfront-lambda-edge": "2.0.0",
+    "serverless-plugin-stage-variables": "^1.7.10",
+    "serverless-webpack": "^5.1.5",
+    "sharp": "^0.20.3",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
